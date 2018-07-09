@@ -1,0 +1,91 @@
+﻿---
+ID: "2dee0387-b89c-47b4-895d-f241ead66df8"
+Parent: "b1a62dad-1879-4dbd-adb4-e379c181162a"
+Template: "a90f48c4-4d4f-41d7-8497-070a9a50304e"
+Path: /sitecore/system/Settings/Forms/Report Queries/Form Field Metrics
+DB: master
+SharedFields:
+- ID: "72b1c86f-ae19-4534-abcf-0692378d41cf"
+  Hint: Data Source
+  Value: reporting
+- ID: "a61cc636-3272-4fb6-bcf9-762940047a78"
+  Hint: Query
+  Value: |
+    SELECT fld.[FieldId]
+        ,fld.[FormId]
+        ,fn.[FieldName]
+        ,SUM(fld.[Completed]) AS Completed
+        ,SUM(fld.[Errors]) AS Errors
+        ,AVG(fld.[AverageTime]) AS AverageTime   
+        ,COALESCE(SUM(CAST(fld.[Dropouts] AS float)) * 100 / NULLIF(fldTotals.[TotalDropouts], 0), 0) AS DropoutRate
+        ,COALESCE(SUM(CAST(fld.[Errors] AS float)) * 100 / NULLIF(fldTotals.[TotalErrors], 0), 0) AS ErrorRate
+    FROM [dbo].[Fact_FormFieldMetrics] fld
+    JOIN [dbo].[FormFieldNames] fn ON fld.[FieldId] = fn.[FieldId]
+    JOIN (SELECT [FormId]
+                ,SUM([Errors]) AS TotalErrors
+                ,SUM([Dropouts]) AS TotalDropouts
+          FROM [dbo].[Fact_FormFieldMetrics]
+          WHERE [InteractionStartDate] BETWEEN @StartDate AND @EndDate
+          GROUP BY [FormId]) fldTotals ON fld.[FormId] = fldTotals.[FormId]
+    WHERE fld.[FormId] = @FormId AND fld.[InteractionStartDate] BETWEEN @StartDate AND @EndDate
+    GROUP BY fld.[FieldId], fld.[FormId], fn.[FieldName], fldTotals.[TotalDropouts], fldTotals.[TotalErrors]
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Metrikværdier for formularfelter
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155403Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Formularfeld Metriken
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155839Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170509T091140Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: フォーム フィールド メトリクス
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160257Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

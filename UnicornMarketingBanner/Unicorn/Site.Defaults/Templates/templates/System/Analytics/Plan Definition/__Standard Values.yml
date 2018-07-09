@@ -1,0 +1,26 @@
+﻿---
+ID: "cd5e6d86-c8b5-4afc-a228-8795a3c62e6b"
+Parent: "d4d43c33-3661-4630-af63-0754cab7b110"
+Template: "d4d43c33-3661-4630-af63-0754cab7b110"
+Path: /sitecore/templates/System/Analytics/Plan Definition/__Standard Values
+DB: master
+SharedFields:
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 1
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160504T142539Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,67 @@
+﻿---
+ID: "014e8b7e-3ae2-4422-978e-a021a5de2dc5"
+Parent: "197c8a18-c17d-46cb-838d-61e88d7d78fa"
+Template: "197c8a18-c17d-46cb-838d-61e88d7d78fa"
+Path: /sitecore/templates/System/Email/Messages/Inner Content/Content/__Standard Values
+DB: master
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: 
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155357Z
+    - ID: "4abe9631-4175-471f-a9fb-251f1b0e69f6"
+      Hint: Body
+      Value: "<p>[Indtast din meddelelse her]</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155832Z
+    - ID: "4abe9631-4175-471f-a9fb-251f1b0e69f6"
+      Hint: Body
+      Value: <p>&lt;Geben Sie Ihre Nachricht hier ein&gt;</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090617T094603
+    - ID: "4abe9631-4175-471f-a9fb-251f1b0e69f6"
+      Hint: Body
+      Value: "<p>[Enter the body text of your message here]</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160248Z
+    - ID: "4abe9631-4175-471f-a9fb-251f1b0e69f6"
+      Hint: Body
+      Value: <p>&lt;ここにメッセージを入力してください&gt;</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

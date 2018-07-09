@@ -1,0 +1,78 @@
+----item----
+version: 1
+id: {EF08B92B-B719-473E-B39F-8CC4E4FEFD6D}
+database: master
+path: /sitecore/system/Marketing Control Panel/FXM/nodejswebsite/A Sitecore Static Banner
+parent: {558ABDC7-BDCA-4D42-9F30-5BE0C2074F07}
+name: A Sitecore Static Banner
+master: {00000000-0000-0000-0000-000000000000}
+template: {10E23679-55DB-4059-B8F2-E417A2F78FCB}
+templatekey: Element Placeholder
+created: 20180704T110540Z
+
+----field----
+field: {0789F313-0E00-4E40-801B-9A4002505BA7}
+name: Position
+key: position
+content-length: 38
+
+{B8F49EBF-2542-4CB0-B3BB-63858918CE8B}
+----field----
+field: {7CA4CCA5-DF09-404F-99E1-5E00EAA5584E}
+name: Selector
+key: selector
+content-length: 34
+
+body > div:not([sc-part-of]):eq(1)
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 408
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:p="1" s:s="s" s:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <p:da name="l" />
+    <r uid="{7C81B53A-5B9F-4854-97F8-CDD5032EEF39}" p:before="*" s:before="*" s:id="{BB17E8C6-355A-4026-9276-929B12C7C790}" s:ph="{EF08B92B-B719-473E-B39F-8CC4E4FEFD6D}" s:patch="http://www.sitecore.net/xmlconfig/" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: f77448d6-bd1d-4062-8197-a32b7410af14
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180704T110540Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f77448d6-bd1d-4062-8197-a32b7410af14
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180704T110643Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

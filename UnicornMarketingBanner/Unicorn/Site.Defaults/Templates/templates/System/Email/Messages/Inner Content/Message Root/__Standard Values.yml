@@ -1,0 +1,29 @@
+﻿---
+ID: "debb673c-c9e0-464e-a727-5cb02c1995ce"
+Parent: "3f12d78c-b7b7-4157-98fc-da3322ee1a5b"
+Template: "3f12d78c-b7b7-4157-98fc-da3322ee1a5b"
+Path: /sitecore/templates/System/Email/Messages/Inner Content/Message Root/__Standard Values
+DB: master
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\EXM users|pd|+item:delete|^*|pe|+item:delete|^*|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20091127T111654
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "69909e89-5e8f-4a4b-9c16-b06a13f7b056"
+      Hint: AlternateText
+      Value: 
+    - ID: "c0bfd467-0b74-4efe-b7c9-1ecf7f0e5370"
+      Hint: Subject
+      Value: 

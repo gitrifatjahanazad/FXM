@@ -1,0 +1,98 @@
+﻿---
+ID: "dc475cf4-fb35-436d-8af6-76595b9724fe"
+Parent: "72abca6f-7639-4ac7-8859-b295c01fee23"
+Template: "2683398d-1a6e-47fc-8283-56e74bbc2639"
+Path: /sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/Custom listener/Parameters/Condition
+DB: master
+SharedFields:
+- ID: "40f23c40-60f0-4621-85ff-a762e98dc6c3"
+  Hint: Editor ID
+  Value: "7442CE78-3D80-4271-85B3-95830D7CC44B"
+- ID: "497d5196-5189-4f23-9b49-2e8e29313a85"
+  Hint: Required
+  Type: Checkbox
+  Value: 1
+- ID: "b80911e1-9625-418b-9951-21b282ce33f0"
+  Hint: Key
+  Value: Condition
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Betingelse
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155425Z
+    - ID: "56d67159-cb7c-4f57-962f-da5b610ff542"
+      Hint: Description
+      Value: <p>Den betingelse, der skal evalueres for at fastlægge, hvilken sti der skal benyttes.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: Betingelse
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Bedingung
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155907Z
+    - ID: "56d67159-cb7c-4f57-962f-da5b610ff542"
+      Hint: Description
+      Value: <p>Die Bedingung, um den zu nehmenden Pfad zu bestimmen.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: Bedingung
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170227T144743Z
+    - ID: "56d67159-cb7c-4f57-962f-da5b610ff542"
+      Hint: Description
+      Value: <p>The condition to evaluate to determine the path to take.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: Condition
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 条件
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160326Z
+    - ID: "56d67159-cb7c-4f57-962f-da5b610ff542"
+      Hint: Description
+      Value: <p>取得するパスを決定するために評価する条件。</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: 条件

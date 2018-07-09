@@ -1,0 +1,89 @@
+﻿---
+ID: "dbe42be3-4da7-44fc-84ab-e10a750f818d"
+Parent: "9d5aef04-e57e-4bb6-97f9-fd42803aae87"
+Template: "05bbc0aa-69c3-4838-94b2-6a1d38961406"
+Path: "/sitecore/templates/Branches/System/Email/Messages/Two-Column Message/$name/Message Root/Sidebar"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 250
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Sidepanel
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155425Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af7cd188-51b6-4f98-b8a5-7e724bee4a29"
+      Hint: Sidebar
+      Value: |
+        <p>Denne meddelelse indeholder en sidekolonne.</p>
+        <p>Du kan bruge sidekolonnen, præcis som du vil.</p>
+        <p>Erstat blot teksten med din egen.</p>
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Sidebar
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af7cd188-51b6-4f98-b8a5-7e724bee4a29"
+      Hint: Sidebar
+      Value: <p>Dieses Nachrichtenlayout enthält eine Sidebar.</p> <p>Sie können die Sidebar verwenden, wie Sie wollen.</p><p>Ersetzen Sie nur den Text durch Ihren eigenen.</p>
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Sidebar
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090617T165728
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af7cd188-51b6-4f98-b8a5-7e724bee4a29"
+      Hint: Sidebar
+      Value: "<p>[Enter your sidebar text or image here]</p>"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: サイドバー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af7cd188-51b6-4f98-b8a5-7e724bee4a29"
+      Hint: Sidebar
+      Value: |
+        <p>このメッセージ レイアウトはサイドバーを含んでいます。</p>
+        <p>サイドバーは自由に使うことができます。</p>
+        <p>このテキストを自由に書き換えてください。</p>

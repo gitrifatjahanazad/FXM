@@ -1,0 +1,29 @@
+﻿---
+ID: "5b236e10-00ec-4d73-86b0-af4736a2d6fc"
+Parent: "db24ac40-c0a5-4191-86c5-3e01f91943d9"
+Template: "70244923-fa84-477c-8cbd-62f39642c42b"
+Path: /sitecore/templates/Branches/System/Email/Activate Automated Task/$name
+DB: master
+SharedFields:
+- ID: "50be51f8-746d-4dc2-9c3b-b14abc5ce9b7"
+  Hint: Schedule
+  Value: "|127|00:01:00"
+- ID: "62e64dbb-0a39-4dd7-ba05-7bd08c5404e0"
+  Hint: Command
+  Value: "{16350696-609B-4607-AC65-9F74DE815A67}"
+- ID: "a2c0c7a2-697d-40e2-9516-54e0c2d6028e"
+  Hint: Async
+  Type: checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120411T150714
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

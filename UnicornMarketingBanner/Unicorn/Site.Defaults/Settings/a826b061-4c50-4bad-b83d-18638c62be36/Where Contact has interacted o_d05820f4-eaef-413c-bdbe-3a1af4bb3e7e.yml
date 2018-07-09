@@ -1,0 +1,79 @@
+﻿---
+ID: "d05820f4-eaef-413c-bdbe-3a1af4bb3e7e"
+Parent: "a826b061-4c50-4bad-b83d-18638c62be36"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - Channel Conditions/Where Contact has interacted on the specific channel group in the past number time unit"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value:  Sitecore.XConnect.Segmentation.Predicates.Interactions.ChannelGroupMatchesInThePast, Sitecore.XConnect.Segmentation.Predicates
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hvor kontakt har interageret i den pågældende kanalgruppe inden for de sidste tidsenhed i tal
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155423Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontakten har interageret i kanalgruppen [ChannelGroupId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel&selection=System/Analytics/Marketing Taxonomy/Channel/Channel group,channel group] inden for de sidste [Number,Integer,,number] [Unit,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - DateTime Values/Time Units&resulttype=name, time unit]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wo Kontakt in der Vergangenheit in einer spezifischen Kanalgruppe interagiert hat Anzahl Zeiteinheit
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155905Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der Kontakt in der Vergangenheit interagiert hat mit [ChannelGroupId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel&selection=System/Analytics/Marketing Taxonomy/Channel/Channel group,channel der Kanalgruppe  [Anzahl,Integer,,Anzahl] [Unit,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - DateTime Values/Time Units&resulttype=name, time unit]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170126T150207Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the contact has interacted on the [ChannelGroupId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel&selection=System/Analytics/Marketing Taxonomy/Channel/Channel group,channel group] channel group in the past  [Number,Integer,,number] [Unit,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - DateTime Values/Time Units&resulttype=name, time unit]"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: コンタクトが特定の期間に特定のチャネルグループから訪問した場合
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160325Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトが[ChannelGroupId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel&selection=System/Analytics/Marketing Taxonomy/Channel/Channel group,チャネル グループ]チャネル グループから過去[Number,Integer,,数字] [Unit,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - DateTime Values/Time Units&resulttype=name, 時間の単位]以内に訪問した場合"

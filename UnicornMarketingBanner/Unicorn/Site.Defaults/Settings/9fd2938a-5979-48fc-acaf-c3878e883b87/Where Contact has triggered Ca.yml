@@ -1,0 +1,82 @@
+﻿---
+ID: "1e36b4fc-1f80-4669-baf4-52dd26ebccc2"
+Parent: "9fd2938a-5979-48fc-acaf-c3878e883b87"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - Campaign Search Queries/Where Contact has triggered Campaign in Group"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.XConnect.Segmentation.Predicates.Interactions.CampaignFromCampaignGroupTriggered, Sitecore.XConnect.Segmentation.Predicates
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hvor kontakt har udløst kampagne i gruppe
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155401Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontakten har udløst en kampagne i kampagnegruppen [CampaignGroupId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Campaign group,campaign group]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wo Kontakt Kampagne in Gruppe ausgelöst hat
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155836Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der Kontakt eine Kampagne in der Kampagnegruppe ausgelöst hat [CampaignGroupId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Campaign group,campaign group]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T131435Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the contact has triggered any campaign in the campaign group [CampaignGroupId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Campaign group,campaign group] "
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: コンタクトがグループ内のキャンペーンをトリガーした場合
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160254Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトが[CampaignGroupId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Campaign group,キャンペーン グループ]のキャンペーンをトリガーしたことがある場合"

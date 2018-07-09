@@ -1,0 +1,79 @@
+﻿---
+ID: "99bfef57-1e16-41e5-8fd1-c03fb9d2eafc"
+Parent: "906d842d-e1e0-453d-8ae7-ec1248feae65"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - Contact/Where Contact Identifier Source Compares To"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.XConnect.Segmentation.Predicates.Contacts.IdentifierSourceMatches, Sitecore.XConnect.Segmentation.Predicates
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Hvor kontakt-ID-kilde er lig med"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155417Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontakt-ID-kilde [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - String Operators&resulttype=name,compares to] [IdentifierSource,Text,,specific value]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wo die Kontakt Identifier Quelle verglichen mit
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155856Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo die Kontakt-Identifier-Quelle [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - String Operators&resulttype=name,compares to] [IdentifierQuelle,Text,,spezifischer Wert]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20121008T094900Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the Contact Identifier Source [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - String Operators&resulttype=name,compares to] [IdentifierSource,Text,,specific value]"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: コンタクトの識別ソースとの比較条件
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160316Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトの識別ソースが[IdentifierSource,Text,,特定の値][Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - String Operators&resulttype=name,と比較する]場合"

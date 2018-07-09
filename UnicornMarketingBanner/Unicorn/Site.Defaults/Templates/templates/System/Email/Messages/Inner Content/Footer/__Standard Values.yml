@@ -1,0 +1,79 @@
+﻿---
+ID: "4a5b361f-253d-46cb-8fb5-48a9673ac899"
+Parent: "a5b51631-4357-45ee-b2b8-99502f351324"
+Template: "a5b51631-4357-45ee-b2b8-99502f351324"
+Path: /sitecore/templates/System/Email/Messages/Inner Content/Footer/__Standard Values
+DB: master
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: 
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155407Z
+    - ID: "504831fb-5b5e-44ae-8cf1-f5005e653622"
+      Hint: Footer
+      Value: |
+        <p>Hvis du vil framelde dig denne e-mail, skal du klikke på et af disse links:</p>
+        <p><a href="/sitecore%20modules/Web/EXM/Unsubscribe.aspx">Afmeld</a></p>
+        <p><a href="/sitecore%20modules/Web/EXM/UnsubscribeFromAll.aspx">Frameld dig alle e-mails</a></p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155843Z
+    - ID: "504831fb-5b5e-44ae-8cf1-f5005e653622"
+      Hint: Footer
+      Value: |
+        <p>Wenn Sie sich von dieser Email abmelden wollen, klicken Sie bitte auf einen der folgenden Links:</p>
+        <p><a href="/sitecore%20modules/Web/EXM/Unsubscribe.aspx">Abmelden</a></p>
+        <p><a href="/sitecore%20modules/Web/EXM/UnsubscribeFromAll.aspx">Von allen Emails abmelden</a></p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090617T111125
+    - ID: "504831fb-5b5e-44ae-8cf1-f5005e653622"
+      Hint: Footer
+      Value: |
+        <p>If you want to unsubscribe from this email, click one of these links:</p>
+        <p><a href="/sitecore%20modules/Web/EXM/Unsubscribe.aspx">Unsubscribe</a></p>
+        <p><a href="/sitecore%20modules/Web/EXM/UnsubscribeFromAll.aspx">Unsubscribe from all emails</a></p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160303Z
+    - ID: "504831fb-5b5e-44ae-8cf1-f5005e653622"
+      Hint: Footer
+      Value: |
+        <p>本Eメールの購読を解除したい場合、以下のリンクのいずれかをクリックします:</p>
+        <p><a href="/sitecore%20modules/Web/EXM/Unsubscribe.aspx">購読を解除</a></p>
+        <p><a href="/sitecore%20modules/Web/EXM/UnsubscribeFromAll.aspx">全てのEメールの購読を解除</a></p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,79 @@
+﻿---
+ID: "e077c962-e450-4060-bac7-5238c2eb0a14"
+Parent: "1155def3-7140-4441-95fa-4fd1cc4c7791"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - Contact List Subscriptions Search Queries - Unsupported/Where Contact is member of contact list added between"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.XConnect.Segmentation.Predicates.Contacts.ListSubscriptionMatchesBetween, Sitecore.XConnect.Segmentation.Predicates
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hvor kontakt er medlem af kontaktliste tilføjet mellem
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155426Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontakten er medlem af kontaktlisten [ListId,Tree,root=/sitecore/system/Marketing Control Panel/Contact Lists&filter=Type_ContactList,  list name] og blev tilføjet mellem [MinAdded,DateTime,,date] og [MaxAdded,DateTime,,date]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wo Kontakt Mitglied der Kontaktliste ist hinzugefügt zwischen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155908Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der Kontakt Mitglied der Kontaktliste ist[ListId,Tree,root=/sitecore/system/Marketing Control Panel/Contact Lists&filter=Type_ContactList,  list name] and was added zwischen [MinAdded,DateTime,,date] and [MaxHinzugefügt,DatumUhrzeit,,Datum]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170127T113326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the contact is a member of contact list [ListId,Tree,root=/sitecore/system/Marketing Control Panel/Contact Lists&filter=Type_ContactList,  list name] and was added between [MinAdded,DateTime,,date] and [MaxAdded,DateTime,,date]"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: コンタクトが特定の期間にコンタクトリストのメンバーに登録された場合
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160327Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトが[ListId,Tree,root=/sitecore/system/Marketing Control Panel/Contact Lists&filter=Type_ContactList,  リスト名] のメンバーで [MinAdded,DateTime,,日時] と [MaxAdded,DateTime,,日時]の間に追加された場合"

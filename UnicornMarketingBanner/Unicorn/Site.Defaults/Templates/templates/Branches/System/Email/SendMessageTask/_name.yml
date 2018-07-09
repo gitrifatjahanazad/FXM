@@ -1,0 +1,33 @@
+﻿---
+ID: "05cb5873-0236-4110-a19e-088391b3b0b4"
+Parent: "2c9f31c6-4cb5-4e8c-a3d4-56d3945d598e"
+Template: "70244923-fa84-477c-8cbd-62f39642c42b"
+Path: /sitecore/templates/Branches/System/Email/SendMessageTask/$name
+DB: master
+SharedFields:
+- ID: "50be51f8-746d-4dc2-9c3b-b14abc5ce9b7"
+  Hint: Schedule
+  Value: "|127|00:01:00"
+- ID: "62e64dbb-0a39-4dd7-ba05-7bd08c5404e0"
+  Hint: Command
+  Value: "{07EA4877-2361-4DAB-92D5-C393108009A8}"
+- ID: "a2c0c7a2-697d-40e2-9516-54e0c2d6028e"
+  Hint: Async
+  Type: checkbox
+  Value: 1
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090605T145300
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

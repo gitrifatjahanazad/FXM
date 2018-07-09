@@ -1,0 +1,79 @@
+﻿---
+ID: "5355956b-0995-4d97-998d-747aa3a8d065"
+Parent: "089dee6b-54ae-4fe6-bf61-7338d9f011de"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - Date/Date Compares To Day Of Month"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.XConnect.Segmentation.Predicates.Date.DayOfMonthMatches, Sitecore.XConnect.Segmentation.Predicates
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Dato svarer til dag i måneden
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155408Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor den aktuelle dag i måneden [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,compares to] [DayOfMonth,Integer,,number]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Datum im Vergleich zu Tag des Monats
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155845Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der aktuelle Tag des Monats[Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,compares to] [TagDesMonats,Integer,,Anzahl]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20121008T094900
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "when the current day of the month [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,compares to] [DayOfMonth,Integer,,number]"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 月の日付との比較条件
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160304Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： 現在の月の日付が[DayOfMonth,Integer,,数][Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,と比較する]場合"

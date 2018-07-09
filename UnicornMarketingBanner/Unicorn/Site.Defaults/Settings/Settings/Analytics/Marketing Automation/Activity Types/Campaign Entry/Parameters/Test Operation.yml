@@ -1,0 +1,97 @@
+﻿---
+ID: "e20da90c-b963-4b26-becd-613a803c0f1b"
+Parent: "9fa8f3cb-40ca-49a6-8d76-6e7d47ba4c68"
+Template: "2683398d-1a6e-47fc-8283-56e74bbc2639"
+Path: /sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/Campaign Entry/Parameters/Test Operation
+DB: master
+SharedFields:
+- ID: "40f23c40-60f0-4621-85ff-a762e98dc6c3"
+  Hint: Editor ID
+  Value: "B5DD8B01-C09A-4FDA-8900-758C84171743"
+- ID: "b80911e1-9625-418b-9951-21b282ce33f0"
+  Hint: Key
+  Value: TestOperation
+- ID: "efa373d2-fca3-4709-a2e2-a0c8ca46dd7e"
+  Hint: Editor Parameters
+  Value: ObjectType=Sitecore.Xdb.MarketingAutomation.Core.Activity.CollectionTestOperation%2C%20Sitecore.Xdb.MarketingAutomation.Core
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Test handling
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155426Z
+    - ID: "56d67159-cb7c-4f57-962f-da5b610ff542"
+      Hint: Description
+      Value: "<p>Den handling, der anvendes for sideevent-ID'er under evaluering.</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: Test handling
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Test Operation
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155908Z
+    - ID: "56d67159-cb7c-4f57-962f-da5b610ff542"
+      Hint: Description
+      Value: <p>Der auf die Seitenevent Ids angewandte Vorgang während der Bewertung.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: Test Operation
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170124T033602Z
+    - ID: "56d67159-cb7c-4f57-962f-da5b610ff542"
+      Hint: Description
+      Value: <p>The operation applied to the page event IDs during evaluation.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: Test Operation
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: テストの操作
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160327Z
+    - ID: "56d67159-cb7c-4f57-962f-da5b610ff542"
+      Hint: Description
+      Value: <p>操作は評価中にページイベントIDに適用されました</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: テストの操作

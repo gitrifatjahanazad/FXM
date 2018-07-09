@@ -1,0 +1,83 @@
+﻿---
+ID: "f3544452-0ae5-4c10-91ef-66d117363422"
+Parent: "bcdbb585-dcbb-4459-a797-6d86eaeb7403"
+Template: "bcdbb585-dcbb-4459-a797-6d86eaeb7403"
+Path: /sitecore/templates/System/Email/Sample Newsletter/Footer/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{F0818351-EED1-453E-8325-684EEB1A827A}"
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155428Z
+    - ID: "4ba95567-e774-48a4-967a-1bdebf71b7e1"
+      Hint: Background Color
+      Value: #FFF
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7224f1e8-7dca-41ac-b2cf-e32dea2dd077"
+      Hint: Legal Footer Text
+      Value: Copyright (c) Sitecore
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155910Z
+    - ID: "4ba95567-e774-48a4-967a-1bdebf71b7e1"
+      Hint: Background Color
+      Value: #FFF
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7224f1e8-7dca-41ac-b2cf-e32dea2dd077"
+      Hint: Legal Footer Text
+      Value: Copyright (c) Sitecore
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T055039Z
+    - ID: "332bbfbb-47b2-4fde-9ea3-db800b586437"
+      Hint: Font Color
+      Value: #000
+    - ID: "4ba95567-e774-48a4-967a-1bdebf71b7e1"
+      Hint: Background Color
+      Value: #FFF
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7224f1e8-7dca-41ac-b2cf-e32dea2dd077"
+      Hint: Legal Footer Text
+      Value: Copyright (c) Sitecore
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160330Z
+    - ID: "4ba95567-e774-48a4-967a-1bdebf71b7e1"
+      Hint: Background Color
+      Value: #FFF
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7224f1e8-7dca-41ac-b2cf-e32dea2dd077"
+      Hint: Legal Footer Text
+      Value: Copyright (c) Sitecore

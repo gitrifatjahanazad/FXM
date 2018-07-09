@@ -1,0 +1,82 @@
+﻿---
+ID: "f1ddea91-6b4d-42f6-8577-1665edeb2ebd"
+Parent: "eb56d203-5066-4d26-a0e3-aa61ab65553e"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - Engagement Measures Conditions/Where Contact Interaction count on specific Channel compares to"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.XConnect.Segmentation.Predicates.Interactions.NumberOfInteractionsOnSpecificChannelMatches, Sitecore.XConnect.Segmentation.Predicates
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hvor kontaktinteraktionsantal på bestemt kanal er lig med
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155428Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor det antal gange, kontakten har interageret på kanalen [ChannelId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel&selection=System/Analytics/Marketing Taxonomy/Channel/Channel,channel] [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,compares to] [Number,Integer,,number]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wo Kontakt Interaktionszählung auf bestimmten Kanal verglichen mit
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155910Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo die Gesamtanzahl der Male bei denen der Kontakt beim [ChannelId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel&selection=System/Analytics/Marketing Taxonomy/Channel/Channel,channel] Kanal interagiert hat [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,compares to] [Anzahl,Integer,,Anzahl]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T131435Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the number of times the contact has interacted on [ChannelId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel&selection=System/Analytics/Marketing Taxonomy/Channel/Channel,channel] channel [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,compares to] [Number,Integer,,number]"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: コンタクトが特定のチャネルから訪問した回数との比較条件
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160330Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトが[ChannelId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel&selection=System/Analytics/Marketing Taxonomy/Channel/Channel,チャネル] チャネルから訪問した回数が [Number,Integer,,数字][Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,と比較する]場合"

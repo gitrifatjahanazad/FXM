@@ -1,0 +1,41 @@
+﻿---
+ID: "f9c8e489-274c-41f7-9127-f90922091095"
+Parent: "69474581-3668-4fed-b0f0-0b88c2532cae"
+Template: "69474581-3668-4fed-b0f0-0b88c2532cae"
+Path: /sitecore/templates/System/Email/Messages/Message Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {F112BDEF-8D86-4CEA-9B9A-8477A582926C}
+    {9E170B31-F8AA-4E1F-B605-2FC0BD4FE120}
+    {6FE51EB4-1D30-4E6B-8BA0-0EBB1405D283}
+    {F868C724-50D0-4347-9C9B-BABB8DB705FE}
+    {ECF0A9C8-FE56-45D8-B750-6BDE3A34A532}
+    {1AFE38A7-9461-4278-ADAF-D807F27F36E4}
+    {69474581-3668-4FED-B0F0-0B88C2532CAE}
+- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
+  Hint: __Subitems Sorting
+  Value: "{32416A95-4197-4D33-8CE7-7BB4FFEBEB42}"
+- ID: "83798d75-df25-4c28-9327-e8bac2b75292"
+  Hint: __Insert Rules
+  Type: TreelistEx
+  Value: 
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Type: TreelistEx
+  Value: "{A0C460F4-DBAE-4A5A-8F3A-C4ADFCDACEEA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090911T095200
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

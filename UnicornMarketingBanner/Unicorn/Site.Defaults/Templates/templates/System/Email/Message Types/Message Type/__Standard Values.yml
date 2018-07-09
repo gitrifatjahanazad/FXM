@@ -1,0 +1,22 @@
+﻿---
+ID: "857b1c5d-ce83-4711-afe9-9e9ebccdc20b"
+Parent: "27a7fe05-048e-4294-97b3-c0c08b90d285"
+Template: "27a7fe05-048e-4294-97b3-c0c08b90d285"
+Path: /sitecore/templates/System/Email/Message Types/Message Type/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba69b6e7-fa6b-4963-af17-77cb45797628"
+  Hint: Campaigns Position
+  Value: "{C1B8669B-C41A-4ED3-BF0D-E859CF880D42}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110811T152300
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

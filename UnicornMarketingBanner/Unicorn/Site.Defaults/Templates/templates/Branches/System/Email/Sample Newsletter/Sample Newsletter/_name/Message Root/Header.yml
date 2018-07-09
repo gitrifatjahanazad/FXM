@@ -1,0 +1,98 @@
+﻿---
+ID: "1674bb57-46a7-4446-a735-7899695c88ab"
+Parent: "74d541f2-6331-442a-8cc1-49ab664f0026"
+Template: "23c8efd2-99e7-44e9-bf8a-c97d1ec826dd"
+Path: /sitecore/templates/Branches/System/Email/Sample Newsletter/Sample Newsletter/$name/Message Root/Header
+DB: master
+SharedFields:
+- ID: "2fac8d4a-25ff-46cc-b2ff-a46e996d2913"
+  Hint: Logo
+  Value: |
+    <image mediaid="{4E345681-B027-4B76-88B2-B4A90C915833}" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Overskrift
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11bf6df6-647b-4c28-9cb8-f35ce7a04be5"
+      Hint: ViewOnlineHavingTrouble
+      Value: "Har du problemer med at se e-mailen?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155400Z
+    - ID: "4ba95567-e774-48a4-967a-1bdebf71b7e1"
+      Hint: Background Color
+      Value: #FFF
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "73afc8ce-4f97-43ef-8a81-f1e3a3cbc6a2"
+      Hint: ViewOnlineClickHere
+      Value: Klik her for at se onlineversionen.
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Header
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11bf6df6-647b-4c28-9cb8-f35ce7a04be5"
+      Hint: ViewOnlineHavingTrouble
+      Value: "Haben Sie Probleme, diese Email anzusehen?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155835Z
+    - ID: "4ba95567-e774-48a4-967a-1bdebf71b7e1"
+      Hint: Background Color
+      Value: #FFF
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "73afc8ce-4f97-43ef-8a81-f1e3a3cbc6a2"
+      Hint: ViewOnlineClickHere
+      Value: Bitte klicken Sie hier, um die Onlineversion anzusehen.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T021847Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ヘッダー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11bf6df6-647b-4c28-9cb8-f35ce7a04be5"
+      Hint: ViewOnlineHavingTrouble
+      Value: Eメールの表示に問題がありますか？
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160252Z
+    - ID: "4ba95567-e774-48a4-967a-1bdebf71b7e1"
+      Hint: Background Color
+      Value: #FFF
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "73afc8ce-4f97-43ef-8a81-f1e3a3cbc6a2"
+      Hint: ViewOnlineClickHere
+      Value: オンライン バージョンを確認するにはここをクリックします。

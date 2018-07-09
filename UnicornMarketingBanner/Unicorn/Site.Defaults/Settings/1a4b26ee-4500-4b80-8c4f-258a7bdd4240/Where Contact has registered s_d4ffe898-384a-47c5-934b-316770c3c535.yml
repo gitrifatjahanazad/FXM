@@ -1,0 +1,79 @@
+﻿---
+ID: "d4ffe898-384a-47c5-934b-316770c3c535"
+Parent: "1a4b26ee-4500-4b80-8c4f-258a7bdd4240"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - Outcomes Search Queries - Unsupported/Where Contact has registered specific outcome in the past"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.XConnect.Segmentation.Predicates.Interactions.OutcomeMatchesInThePast, Sitecore.XConnect.Segmentation.Predicates
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hvor kontakt har registreret bestemt resultat inden for de sidste
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155424Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontakten har registreret resultatet [DefinitionId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes&selection=System/Analytics/Outcome/Outcome Definition,  outcome] inden for de sidste [Number,Integer,,number] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, time unit]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wo Kontakt spezifisches Ergebnis in der Vergangenheit registriert hat
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155906Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der Kontakt ein Ergebnis registriert hat [DefinitionId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes&selection=System/Analytics/Outcome/Outcome Definition,  outcome] in der Vergangenheit[Anzahl,Integer,,Anzahl] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, time unit]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170127T113326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the contact has registered outcome [DefinitionId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes&selection=System/Analytics/Outcome/Outcome Definition,  outcome] in the past [Number,Integer,,number] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, time unit]"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: コンタクトが特定の期間に特定の成果をトリガーした場合
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160325Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトが[DefinitionId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes&selection=System/Analytics/Outcome/Outcome Definition,  成果]成果を過去[Number,Integer,,数字] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, 時間の単位]以内に登録した場合"

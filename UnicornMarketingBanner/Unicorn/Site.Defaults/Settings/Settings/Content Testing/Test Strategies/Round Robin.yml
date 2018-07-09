@@ -1,0 +1,29 @@
+﻿---
+ID: "bc30e709-f586-473e-906a-10e7d40532c2"
+Parent: "938c20b4-78be-4d2a-8999-7e4714c32e78"
+Template: "314be5b0-8536-45cf-900d-a84b2b335210"
+Path: /sitecore/system/Settings/Content Testing/Test Strategies/Round Robin
+DB: master
+SharedFields:
+- ID: "3d445351-a7d8-4c5f-a009-9af499b44c6e"
+  Hint: Type
+  Value: Sitecore.Modules.EmailCampaign.Core.Rules.RoundRobinStrategy,Sitecore.EmailCampaign
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Round-robin"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20091230T141136
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,22 @@
+﻿---
+ID: "781c667c-d54b-4f23-ad7a-8fc2aa936ae0"
+Parent: "ca1fd6e7-3bb6-4d94-8b25-e888507c99fb"
+Template: "ca1fd6e7-3bb6-4d94-8b25-e888507c99fb"
+Path: /sitecore/templates/System/Email/Global Settings/Hostname Mapping/__Standard Values
+DB: master
+SharedFields:
+- ID: "4df87612-7e44-4c22-b9c0-68646a30644a"
+  Hint: Original
+  Value: "http://$name"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170111T123534Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

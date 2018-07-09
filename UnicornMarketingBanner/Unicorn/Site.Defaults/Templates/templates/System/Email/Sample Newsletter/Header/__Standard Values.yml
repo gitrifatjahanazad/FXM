@@ -1,0 +1,95 @@
+﻿---
+ID: "bff5e1e3-60d7-4cd3-ac29-26e963a2d22c"
+Parent: "23c8efd2-99e7-44e9-bf8a-c97d1ec826dd"
+Template: "23c8efd2-99e7-44e9-bf8a-c97d1ec826dd"
+Path: /sitecore/templates/System/Email/Sample Newsletter/Header/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{F0818351-EED1-453E-8325-684EEB1A827A}"
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11bf6df6-647b-4c28-9cb8-f35ce7a04be5"
+      Hint: ViewOnlineHavingTrouble
+      Value: "Har du problemer med at se e-mailen?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155421Z
+    - ID: "4ba95567-e774-48a4-967a-1bdebf71b7e1"
+      Hint: Background Color
+      Value: #FFF
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "73afc8ce-4f97-43ef-8a81-f1e3a3cbc6a2"
+      Hint: ViewOnlineClickHere
+      Value: Klik her for at se onlineversionen.
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11bf6df6-647b-4c28-9cb8-f35ce7a04be5"
+      Hint: ViewOnlineHavingTrouble
+      Value: "Haben Sie Probleme, diese Email anzusehen?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155903Z
+    - ID: "4ba95567-e774-48a4-967a-1bdebf71b7e1"
+      Hint: Background Color
+      Value: #FFF
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "73afc8ce-4f97-43ef-8a81-f1e3a3cbc6a2"
+      Hint: ViewOnlineClickHere
+      Value: Bitte klicken Sie hier, um die Onlineversion anzusehen.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11bf6df6-647b-4c28-9cb8-f35ce7a04be5"
+      Hint: ViewOnlineHavingTrouble
+      Value: "Are you having trouble viewing the email?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T055432Z
+    - ID: "332bbfbb-47b2-4fde-9ea3-db800b586437"
+      Hint: Font Color
+      Value: #000
+    - ID: "4ba95567-e774-48a4-967a-1bdebf71b7e1"
+      Hint: Background Color
+      Value: #FFF
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "73afc8ce-4f97-43ef-8a81-f1e3a3cbc6a2"
+      Hint: ViewOnlineClickHere
+      Value: Please click here to see the online version.
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11bf6df6-647b-4c28-9cb8-f35ce7a04be5"
+      Hint: ViewOnlineHavingTrouble
+      Value: Eメールの表示に問題がありますか？
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160322Z
+    - ID: "4ba95567-e774-48a4-967a-1bdebf71b7e1"
+      Hint: Background Color
+      Value: #FFF
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "73afc8ce-4f97-43ef-8a81-f1e3a3cbc6a2"
+      Hint: ViewOnlineClickHere
+      Value: オンライン バージョンを確認するにはここをクリックします。

@@ -1,0 +1,79 @@
+﻿---
+ID: "b4b98273-c790-42f4-957c-0d9edb584549"
+Parent: "1a4b26ee-4500-4b80-8c4f-258a7bdd4240"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - Outcomes Search Queries - Unsupported/Where Contact has registered specific outcome between"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.XConnect.Segmentation.Predicates.Interactions.OutcomeMatchesBetween, Sitecore.XConnect.Segmentation.Predicates
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hvor kontakt har registreret bestemt resultat mellem
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155420Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontakten har registreret resultatet [DefinitionId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes&selection=System/Analytics/Outcome/Outcome Definition,  outcome] mellem [MinDate,DateTime,,date] og [MaxDate,DateTime,,date]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wo Kontakt spezifisches Ergebnis registriert hat zwischen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155901Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der Kontakt ein Ergebnis registriert hat [DefinitionId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes&selection=System/Analytics/Outcome/Outcome Definition,  outcome] zwischen [MinDate,DateTime,,date] and [MaxDatum,DatumUhrzeit,,Datum]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170127T113326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the contact has registered outcome [DefinitionId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes&selection=System/Analytics/Outcome/Outcome Definition,  outcome] between [MinDate,DateTime,,date] and [MaxDate,DateTime,,date] "
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: コンタクトが特定の期間にトリガーした成果との比較条件
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160321Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトが[MinDate,DateTime,,日時] と [MaxDate,DateTime,,日時]の間に[DefinitionId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes&selection=System/Analytics/Outcome/Outcome Definition,  成果]をトリガーした場合"

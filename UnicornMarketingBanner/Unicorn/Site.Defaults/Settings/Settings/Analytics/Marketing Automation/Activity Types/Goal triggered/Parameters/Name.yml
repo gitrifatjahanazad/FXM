@@ -1,0 +1,85 @@
+﻿---
+ID: "d12eda08-85a8-4bb5-afca-422ce916390b"
+Parent: "e9597fa3-bab5-474f-92fb-b7149563aead"
+Template: "2683398d-1a6e-47fc-8283-56e74bbc2639"
+Path: /sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/Goal triggered/Parameters/Name
+DB: master
+SharedFields:
+- ID: "40f23c40-60f0-4621-85ff-a762e98dc6c3"
+  Hint: Editor ID
+  Value: "B5DD8B01-C09A-4FDA-8900-758C84171743"
+- ID: "b80911e1-9625-418b-9951-21b282ce33f0"
+  Hint: Key
+  Value: Name
+- ID: "efa373d2-fca3-4709-a2e2-a0c8ca46dd7e"
+  Hint: Editor Parameters
+  Value: ObjectType=System.String
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Navn:"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155423Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: "Navn:"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Name:"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155905Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: "Name:"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170810T071347Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: Name
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 名前
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160325Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: 名前

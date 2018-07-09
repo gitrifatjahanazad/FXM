@@ -1,0 +1,98 @@
+﻿---
+ID: "6bb73242-a22c-45fd-8743-8cd9e53c3f87"
+Parent: "2df0885c-7154-470d-b5cf-275b84b24248"
+Template: "b00d58aa-b884-4641-a4fc-5c4aca49d553"
+Path: /sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/Unsubscribe from list
+DB: master
+BranchID: "922570a5-c76a-424a-9e2c-e2d7c2d7ec0e"
+SharedFields:
+- ID: "7615a1f6-281d-4f49-8e68-c7f0f4a7ad34"
+  Hint: Implementation Type
+  Value: Sitecore.Marketing.Automation.Activity.UnsubscribeFromList, Sitecore.Marketing.Automation.Activity
+- ID: "b7b5336a-cc53-4b18-80a8-300e2b753b85"
+  Hint: Icon
+  Value: OfficeWhite/32x32/ma_unsubscribe_list.png
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{4FA4ACBB-04CB-46E7-BA54-09A4D38FD8DE}"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Frameld fra liste
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: Fjern kontakter fra en eller flere lister.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155411Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: Frameld fra en liste
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Von Liste abmelden
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: Kontakte von einer oder mehreren Listen entfernen.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155849Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: Von einer Liste abmelden
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: Remove contacts from one or more lists.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170317T103355Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: Unsubscribe from a list
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: リストから削除
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: 一つまたはそれ以上のリストからコンタクトを削除
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160309Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: リストから削除

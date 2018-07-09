@@ -1,0 +1,82 @@
+﻿---
+ID: "81aa1969-e41a-410d-ba31-1766fa44a187"
+Parent: "192c8f36-715d-4415-9c50-70804c81f878"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - Channel Search Queries - Unsupported/Where Contact has interacted on any channel in the past number time unit"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.XConnect.Segmentation.Predicates.Interactions.AnyInteractionInThePast, Sitecore.XConnect.Segmentation.Predicates
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hvor kontakt har interageret på en kanal inden for de sidste tidsenhed i tal
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155414Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontakten har interageret på en kanal inden for de sidste [Number,Integer,,number] [Unit,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - DateTime Values/Time Units&resulttype=name, time unit]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wo Kontakt in der Vergangenheit mit einem Kanal interagiert hat Anzahl Zeiteinheit
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155853Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der Kontakt mit einem Kanal in der Vergangenheit interagiert hat  [Anzahl,Integer,,Anzahl] [Unit,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - DateTime Values/Time Units&resulttype=name, time unit]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170127T081521Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: |
+        when the contact has interacted on any channel in the past  [Number,Integer,,number] [Unit,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - DateTime Values/Time Units&resulttype=name, time unit]
+        
+        
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: コンタクトが過去に任意のチャネルで訪問している場合
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160312Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトが任意のチャネルで過去[Number,Integer,,数字] [Unit,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - DateTime Values/Time Units&resulttype=name, 時間の単位]に訪問した場合"

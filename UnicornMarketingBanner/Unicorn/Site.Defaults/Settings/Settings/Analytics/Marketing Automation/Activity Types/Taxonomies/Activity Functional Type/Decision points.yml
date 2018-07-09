@@ -1,0 +1,79 @@
+﻿---
+ID: "357ef6b8-ca48-41cd-b436-855422924e90"
+Parent: "340062a7-9f50-4ce1-8a53-da3f6a23b73a"
+Template: "2b3e1408-ce5c-4d0b-a8b3-4bad37dcdcec"
+Path: /sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/Taxonomies/Activity Functional Type/Decision points
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Beslutningspunkter
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0daa3df9-cf00-4261-b2cb-12bcde357a9c"
+      Hint: Title
+      Value: Beslutningspunkter
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155404Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Entscheidungspunkte
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0daa3df9-cf00-4261-b2cb-12bcde357a9c"
+      Hint: Title
+      Value: Entscheidungspunkte
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155840Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0daa3df9-cf00-4261-b2cb-12bcde357a9c"
+      Hint: Title
+      Value: Decision points
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170124T030312Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 判断ポイント
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0daa3df9-cf00-4261-b2cb-12bcde357a9c"
+      Hint: Title
+      Value: 判断ポイント
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160259Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

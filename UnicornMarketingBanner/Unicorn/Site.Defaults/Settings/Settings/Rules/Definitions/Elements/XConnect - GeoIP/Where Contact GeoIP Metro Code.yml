@@ -1,0 +1,79 @@
+﻿---
+ID: "3276b4c9-e293-4664-b1a9-0217c7551e37"
+Parent: "e9485097-69fd-4d35-a1e5-ab5e35b22339"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - GeoIP/Where Contact GeoIP Metro Code Compares To"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.XConnect.Segmentation.Predicates.Interactions.GeoIpMetroCodeMatches, Sitecore.XConnect.Segmentation.Predicates
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Hvor kontakts GeoIP-metrokode er lig med"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155404Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontakten har aflagt et besøg, og dennes GeoIP-metrokode [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - String Operators&resulttype=name,compares to] [MetroCode,Text,,specific value]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wo Kontakt GeoIP Metro Code verglichen mit
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155839Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der Kontakt einen Besuch getätigt hat und ihr GeoIP Metro Code [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - String Operators&resulttype=name,compares to] [MetroCode,Text,,spezifischer Wert]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170213T092550Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the contact has visited and their GeoIP metro code [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - String Operators&resulttype=name,compares to] [MetroCode,Text,,specific value]"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: コンタクトの GeoIP メトロ コードとの比較条件
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160258Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトが訪問済みで、 GeoIP メトロ コードが [MetroCode,Text,,特定の値][Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - String Operators&resulttype=name,と比較する]場合"

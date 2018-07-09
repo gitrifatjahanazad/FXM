@@ -1,0 +1,79 @@
+﻿---
+ID: "dcd434ea-e526-40e4-bc32-7d1f8ceb9c0e"
+Parent: "09580811-aa9f-417d-83c4-b1e7f8a301cd"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - GeoIP Conditions/Where Contact GeoIP Latitude Compares To"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.XConnect.Segmentation.Predicates.Interactions.GeoIpLatitudeMatches, Sitecore.XConnect.Segmentation.Predicates
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Hvor kontakts GeoIP-længdegrad er lig med"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155425Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontakten har aflagt et besøg og dennes GeoIP-længdegrad [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/Operators&resulttype=name,compares to] [Latitude,Integer,defaultValue=&validation=%5E%5Cs*%5B-%2B%5D%3F(%5B1-8%5D%3F%5Cd(%5C.%5Cd%2B)%3F%7C90(%5C.0%2B)%3F)%24,specific value]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wo Kontakt GeoIP Breitengrad verglichen mit
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der Kontakt einen Besuch getätigt hat und ihr GeoIP Breitengrad [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/Operators&resulttype=name,compares to] [Latitude,Integer,defaultValue=&validation=%5E%5Cs*%5B-%2B%5D%3F(%5B1-8%5D%3F%5Cd(%5C.%5Cd%2B)%3F%7C90(%5C.0%2B)%3F)%24,spezifischer Wert]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170213T092550Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the contact has visited and their GeoIP latitude [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/Operators&resulttype=name,compares to] [Latitude,Integer,defaultValue=&validation=%5E%5Cs*%5B-%2B%5D%3F(%5B1-8%5D%3F%5Cd(%5C.%5Cd%2B)%3F%7C90(%5C.0%2B)%3F)%24,specific value]"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: コンタクトの GeoIP 緯度との比較条件
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトが訪問済みで、GeoIP 緯度が[Latitude,Integer,defaultValue=&validation=%5E%5Cs*%5B-%2B%5D%3F(%5B1-8%5D%3F%5Cd(%5C.%5Cd%2B)%3F%7C90(%5C.0%2B)%3F)%24,特定の値][Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/Operators&resulttype=name,と比較する]場合"

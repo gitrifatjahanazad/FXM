@@ -1,0 +1,98 @@
+﻿---
+ID: "19a2db97-1374-40b3-8e4f-706370ddb800"
+Parent: "2df0885c-7154-470d-b5cf-275b84b24248"
+Template: "b00d58aa-b884-4641-a4fc-5c4aca49d553"
+Path: /sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/Email clicked
+DB: master
+BranchID: "922570a5-c76a-424a-9e2c-e2d7c2d7ec0e"
+SharedFields:
+- ID: "7615a1f6-281d-4f49-8e68-c7f0f4a7ad34"
+  Hint: Implementation Type
+  Value: Sitecore.EmailCampaign.Activities.ClickListener, Sitecore.EmailCampaign.Activities
+- ID: "b7b5336a-cc53-4b18-80a8-300e2b753b85"
+  Hint: Icon
+  Value: OfficeWhite/32x32/hand_touch.png
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{4FA4ACBB-04CB-46E7-BA54-09A4D38FD8DE}"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "E-mail klikket på"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: "Vælg den e-mailkampagne, du vil følge, og angiv varigheden. Kontakter, der klikker på e-mailen inden for den angivne varighed bevæger sig langs ja-stien."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155400Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: "E-mail klikket på"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Email angeklickt
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: "Wählen Sie die Emailkampagne, auf die Sie hören wollen und spezifizieren Sie die Dauer. Kontakte, die die Email innerhalb der angegebenen Dauer anklicken, gehen auf dem Ja-Pfad weiter."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155836Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: Email angeklickt
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: Select the email campaign that you want to listen for and specify the duration. Contacts that click the email within the specified duration move along the Yes path.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170816T155212Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: Email clicked
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: クリック済みEメール
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: リスナーのルールおよび期間を定義します。指定した期間内にキャンペーン アクティビティをトリガーしたコンタクトはYes に進みます。
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160253Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: クリック済みEメール

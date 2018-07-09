@@ -1,0 +1,79 @@
+﻿---
+ID: "c8c1f315-7a61-4829-9ab3-b7169fd68939"
+Parent: "1155def3-7140-4441-95fa-4fd1cc4c7791"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - Contact List Subscriptions Search Queries - Unsupported/Where Contact is member of contact list added in the past"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.XConnect.Segmentation.Predicates.Contacts.ListSubscriptionMatchesInThePast, Sitecore.XConnect.Segmentation.Predicates
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hvor kontakt er medlem af kontaktliste tilføjet inden for de sidste
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155422Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontakten er medlem af kontaktlisten [ListId,Tree,root=/sitecore/system/Marketing Control Panel/Contact Lists&filter=Type_ContactList,  list name] og blev tilføjet inden for de sidste [Number,Integer,,number] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, time unit]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wo Kontakt Mitglied der Kontaktliste in der Vergangenheit ist
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155904Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der Kontakt Mitglied dr Kontaktliste ist [ListId,Tree,root=/sitecore/system/Marketing Control Panel/Contact Lists&filter=Type_ContactList,  list name] and was added in the past [Number,Integer,,number] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, time unit]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170127T113326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the contact is a member of contact list [ListId,Tree,root=/sitecore/system/Marketing Control Panel/Contact Lists&filter=Type_ContactList,  list name] and was added in the past [Number,Integer,,number] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, time unit]"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: コンタクトが特定の期間にコンタクトリストのメンバーに登録された場合
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160323Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトが[ListId,Tree,root=/sitecore/system/Marketing Control Panel/Contact Lists&filter=Type_ContactList,  リスト名] のメンバーで、過去 [Number,Integer,,数字] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, 時間の単位]以内に登録された場合"

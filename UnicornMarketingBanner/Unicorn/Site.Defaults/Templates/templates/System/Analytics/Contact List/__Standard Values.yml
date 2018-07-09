@@ -1,0 +1,25 @@
+﻿---
+ID: "c88ba491-4d74-4e9f-bfda-b425cd044331"
+Parent: "3f557952-b2bb-45eb-b625-e29698b2a165"
+Template: "3f557952-b2bb-45eb-b625-e29698b2a165"
+Path: /sitecore/templates/System/Analytics/Contact List/__Standard Values
+DB: master
+SharedFields:
+- ID: "2feb4b68-d86c-4572-929b-1361aa4170ee"
+  Hint: Type
+  Value: ContactList
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T080356Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

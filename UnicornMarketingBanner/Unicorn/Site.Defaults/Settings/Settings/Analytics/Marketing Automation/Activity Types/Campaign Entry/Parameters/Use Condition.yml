@@ -1,0 +1,105 @@
+﻿---
+ID: "3ec78710-56f3-4bf2-8e3f-708c8fb627d2"
+Parent: "9fa8f3cb-40ca-49a6-8d76-6e7d47ba4c68"
+Template: "2683398d-1a6e-47fc-8283-56e74bbc2639"
+Path: /sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/Campaign Entry/Parameters/Use Condition
+DB: master
+SharedFields:
+- ID: "40f23c40-60f0-4621-85ff-a762e98dc6c3"
+  Hint: Editor ID
+  Value: "B5DD8B01-C09A-4FDA-8900-758C84171743"
+- ID: "497d5196-5189-4f23-9b49-2e8e29313a85"
+  Hint: Required
+  Type: Checkbox
+  Value: 1
+- ID: "b80911e1-9625-418b-9951-21b282ce33f0"
+  Hint: Key
+  Value: UseCondition
+- ID: "efa373d2-fca3-4709-a2e2-a0c8ca46dd7e"
+  Hint: Editor Parameters
+  Value: ObjectType=System.Boolean
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Brug betingelse
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155405Z
+    - ID: "56d67159-cb7c-4f57-962f-da5b610ff542"
+      Hint: Description
+      Value: |
+        <span style="background-color: #ffffff; color: #222222;">Denne parameter fastsætter den <span style="background-color: #ffffff; color: #222222;">valgte indstilling, hvis det er&nbsp;</span>betingelser, eller evaluerer events, mål og resultater.&nbsp;</span>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: Brug betingelse
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Bedingung benutzen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155842Z
+    - ID: "56d67159-cb7c-4f57-962f-da5b610ff542"
+      Hint: Description
+      Value: |
+        <span style="background-color: #ffffff; color: #222222;">Dieser Parameter bestimmt die <span style="background-color: #ffffff; color: #222222;">gewählte Option, wenn diese is&nbsp;</span>eine Bedingungen ist oder Events, Ziele und Ergebnisse beurteilt.&nbsp;</span>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: Bedingung benutzen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170524T041353Z
+    - ID: "56d67159-cb7c-4f57-962f-da5b610ff542"
+      Hint: Description
+      Value: |
+        <span style="background-color: #ffffff; color: #222222;">This parameter will determine the <span style="background-color: #ffffff; color: #222222;">chosen option, if it is&nbsp;</span>conditions or evaluate the Events, Goals, and outcomes.&nbsp;</span>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: Use Condition
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 条件を使用
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160301Z
+    - ID: "56d67159-cb7c-4f57-962f-da5b610ff542"
+      Hint: Description
+      Value: |
+        <span style="background-color: #ffffff; color: #222222;">このパラメータはそれが条件、イベント、ゴール、および成果の場合、 <span style="background-color: #ffffff; color: #222222;">選択したオプション</span>を決定します。&nbsp;</span>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c2907341-19e2-476d-8932-0873f20bcc08"
+      Hint: Name
+      Value: 条件を使用

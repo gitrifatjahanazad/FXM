@@ -1,0 +1,23 @@
+﻿---
+ID: "a532a9da-5874-4c13-a1e4-6b796125f545"
+Parent: "3d1a6238-15db-4f10-804e-5a90997df783"
+Template: "3d1a6238-15db-4f10-804e-5a90997df783"
+Path: /sitecore/templates/System/Analytics/Marketing Automation/Activity Type/Taxonomy/Taxonomy Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{2CF1E5C4-F75B-42D7-90B7-57C6D042CC34}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161226T104412Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

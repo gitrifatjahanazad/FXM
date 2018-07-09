@@ -1,0 +1,79 @@
+﻿---
+ID: "cc7196c8-a2a6-43f5-adfd-9c68146c4c2a"
+Parent: "1a4b26ee-4500-4b80-8c4f-258a7bdd4240"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - Outcomes Search Queries - Unsupported/Where Contact has registered specific outcome with monetary value between"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.XConnect.Segmentation.Predicates.Interactions.OutcomeMatchesBetweenWithValue, Sitecore.XConnect.Segmentation.Predicates
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hvor kontakt har registreret bestemt resultat med monetær værdi mellem
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155423Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontakten har registreret resultatet [DefinitionId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes&selection=System/Analytics/Outcome/Outcome Definition,  outcome] hvor den monetære værdi [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,compares to] [MonetaryValue,Integer,defaultValue=&validation=%5E%5Cd%2B%28%5C.%5Cd%7B1%2C2%7D%29%3F%24&validationText=please enter a valid monetary value,specific value] mellem [MinDate,DateTime,,date] og [MaxDate,DateTime,,date]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wo Kontakt ein bestimmtes Ergebnis mit Geldwert registriert hat
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155904Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der Kontakt ein Ergebnis registriert hat [DefinitionId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes&selection=System/Analytics/Outcome/Outcome Definition,  outcome] wo der Geldwert [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,compares to] [MonetaryValue,Integer,defaultValue=&validation=%5E%5Cd%2B%28%5C.%5Cd%7B1%2C2%7D%29%3F%24&validationText=bitte geben Sie einen gültigen Geldwert ein, spezifischer Wert] zwischen [MinDatum,DatumUhrzeit,,Datum] und [MaxDatum,DatumUhrzeit,,Datum]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170127T113326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the contact has registered outcome [DefinitionId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes&selection=System/Analytics/Outcome/Outcome Definition,  outcome] where monetary value [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,compares to] [MonetaryValue,Integer,defaultValue=&validation=%5E%5Cd%2B%28%5C.%5Cd%7B1%2C2%7D%29%3F%24&validationText=please enter a valid monetary value,specific value] between [MinDate,DateTime,,date] and [MaxDate,DateTime,,date] "
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: コンタクトが特定の期間に特定の成果の金銭的値を登録した場合
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160324Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトが[MinDate,DateTime,,日時] と [MaxDate,DateTime,,日時]の間に[DefinitionId,Tree,root=/sitecore/system/Marketing Control Panel/Outcomes&selection=System/Analytics/Outcome/Outcome Definition,  成果]成果の金銭的価値の値を[MonetaryValue,Integer,defaultValue=&validation=%5E%5Cd%2B%28%5C.%5Cd%7B1%2C2%7D%29%3F%24&validationText=please enter a valid monetary value,特定の値] [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,と比較する場合]登録した場合"

@@ -1,0 +1,60 @@
+﻿---
+ID: "d316b553-1d15-4192-bab6-b4369231361d"
+Parent: "ecf0a9c8-fe56-45d8-b750-6bde3a34a532"
+Template: "ecf0a9c8-fe56-45d8-b750-6bde3a34a532"
+Path: /sitecore/templates/System/Email/Messages/HTML Message/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6BCAAECD-3EBD-4633-8902-7DBBDE16DDB6}" mediapath="/Email Campaign/Thumbnails/html-template" src="~/media/6BCAAECD3EBD463389027DBBDE16DDB6.ashx" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{A74817EB-726E-46DB-B151-AB5E6AC3F6F4}">
+        <r
+          cac="0"
+          cnd=""
+          mvt=""
+          ds=""
+          id="{D169744B-6343-45D8-831E-658E8560E9CB}"
+          par=""
+          ph="msg-body"
+          uid="{8F02FAEB-8C45-4437-B2FC-88A74F0BF7E2}"
+          vbd="0"
+          vbdev="0"
+          vbl="0"
+          vbp="0"
+          vbqs="0"
+          vbu="0" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d844c9c-bd6c-49b8-9475-947da791f268"
+      Hint: From Address
+      Value: 
+    - ID: "1e5221d9-a813-4ee1-bada-33f70028a709"
+      Hint: AlternateText
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20081209T132800Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e6b1f0c-1267-4651-bfaa-affd48a799ee"
+      Hint: Subject
+      Value: 

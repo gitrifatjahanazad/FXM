@@ -1,0 +1,104 @@
+﻿---
+ID: "bb714802-ce83-491f-963f-16fb11c61bf2"
+Parent: "2df0885c-7154-470d-b5cf-275b84b24248"
+Template: "b00d58aa-b884-4641-a4fc-5c4aca49d553"
+Path: /sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/Goal triggered
+DB: master
+BranchID: "922570a5-c76a-424a-9e2c-e2d7c2d7ec0e"
+SharedFields:
+- ID: "4f9025e1-04e8-4961-b4f7-552ba026e9b0"
+  Hint: Classification
+  Type: TreelistEx
+  Value: |
+    {C07B54E4-479A-4267-9B72-4CC8349E6578}
+    {AC8B15AD-A5DD-4453-BB64-62FC9CC4D3F1}
+- ID: "7615a1f6-281d-4f49-8e68-c7f0f4a7ad34"
+  Hint: Implementation Type
+  Value: Sitecore.Marketing.Automation.Activity.GoalTriggered, Sitecore.Marketing.Automation.Activity
+- ID: "b7b5336a-cc53-4b18-80a8-300e2b753b85"
+  Hint: Icon
+  Value: OfficeWhite/32x32/target.png
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{4FA4ACBB-04CB-46E7-BA54-09A4D38FD8DE}"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Udløst mål
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: "Definer reglen og varigheden for lyttefunktionen. Kontakter, der udløser målene inden for den angivne varighed bevæger sig langs ja-stien."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155421Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: Udløst mål
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Ziel ausgelöst
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: Definieren Sie die Regel und die Dauer des Listeners. Kontakte, die das Ziel innerhalb der spezifizierten Dauer auslösen, fahren auf dem Yes Pfad fort.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155902Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: Ziel ausgelöst
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: Define the rule and the duration of the listener. Contacts that trigger the goals within the specified duration move along the Yes path.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170320T132347Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: Goal triggered
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: トリガーされたゴール
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: リスナーのルールおよび継続期間を定義します。特定の期間内にゴールをトリガーするコンタクトはYes パスに移動します
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160322Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: トリガーされたゴール

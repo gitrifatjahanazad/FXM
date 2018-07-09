@@ -1,0 +1,18 @@
+﻿---
+ID: "558abdc7-bdca-4d42-9f30-5be0c2074f07"
+Parent: "40ac2d94-d9d5-4907-8b3a-346a9dc8bd35"
+Template: "036db470-1850-4848-a48a-0931f825b867"
+Path: /sitecore/system/Marketing Control Panel/FXM/nodejswebsite
+DB: master
+SharedFields:
+- ID: "7e1a879d-caee-47d0-86e7-205425916418"
+  Hint: Primary Domain
+  Value: node.local
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180625T112147Z

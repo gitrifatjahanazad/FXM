@@ -1,0 +1,77 @@
+﻿---
+ID: "fffed4da-e1bc-4610-98f8-e27c7147628e"
+Parent: "b5598e34-0bc7-438f-9f34-4135e2069792"
+Template: "b5598e34-0bc7-438f-9f34-4135e2069792"
+Path: /sitecore/templates/System/Email/Messages/Base HTML Message/__Standard Values
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6BCAAECD-3EBD-4633-8902-7DBBDE16DDB6}" mediapath="/Email Campaign/Thumbnails/html-template" src="~/media/6BCAAECD3EBD463389027DBBDE16DDB6.ashx" />
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d844c9c-bd6c-49b8-9475-947da791f268"
+      Hint: From Address
+      Value: "do-not-reply@yoursite.net"
+    - ID: "1e5221d9-a813-4ee1-bada-33f70028a709"
+      Hint: AlternateText
+      Value: "Din emailklient understøtter ikke HTML-mail."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155430Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d844c9c-bd6c-49b8-9475-947da791f268"
+      Hint: From Address
+      Value: "do-not-reply@yoursite.net"
+    - ID: "1e5221d9-a813-4ee1-bada-33f70028a709"
+      Hint: AlternateText
+      Value: Ihr Email Client unterstützt keine HTML Mail.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155912Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e5221d9-a813-4ee1-bada-33f70028a709"
+      Hint: AlternateText
+      Value: Your email client does not support HTML mails.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090616T170200
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d844c9c-bd6c-49b8-9475-947da791f268"
+      Hint: From Address
+      Value: "do-not-reply@yoursite.net"
+    - ID: "1e5221d9-a813-4ee1-bada-33f70028a709"
+      Hint: AlternateText
+      Value: あなたの電子メール クライアントは HTML メールをサポートしていません。
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160332Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

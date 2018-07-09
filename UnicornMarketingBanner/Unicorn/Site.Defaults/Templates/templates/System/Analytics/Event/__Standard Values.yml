@@ -1,0 +1,36 @@
+﻿---
+ID: "16d7663e-3f15-45a0-ad45-520d5c876789"
+Parent: "a386c5f2-f7f1-4980-aede-72a5b84b7f45"
+Template: "a386c5f2-f7f1-4980-aede-72a5b84b7f45"
+Path: /sitecore/templates/System/Analytics/Event/__Standard Values
+DB: master
+SharedFields:
+- ID: "2f2ae296-8b58-4d94-8eee-0e82589d61a4"
+  Hint: Show in Xfile events list
+  Type: Checkbox
+  Value: 1
+- ID: "33ae0e84-74a0-437f-ab2b-859dfa96f6c9"
+  Hint: Points
+  Value: 0
+- ID: "6f10e607-2d04-4c0d-963a-fc79b5c4e8ce"
+  Hint: Show in Xfile as Latest Event
+  Type: Checkbox
+  Value: 1
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160901T145801Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ac6ba888-4213-43bd-b787-d8da2b6b881f"
+      Hint: Name
+      Value: $name

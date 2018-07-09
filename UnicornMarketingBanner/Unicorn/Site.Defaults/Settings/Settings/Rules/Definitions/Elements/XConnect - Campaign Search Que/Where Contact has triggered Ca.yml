@@ -1,0 +1,82 @@
+﻿---
+ID: "d3bb6f52-f691-4a77-a952-cf8d09614a58"
+Parent: "364297ef-50f9-43e9-bcb1-01d4a5bcb5d3"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - Campaign Search Queries - Unsupported/Where Contact has triggered Campaign after"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.XConnect.Segmentation.Predicates.Interactions.CampaignTriggeredInThePast, Sitecore.XConnect.Segmentation.Predicates
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hvor kontakt har udløst kampagne efter
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155424Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontakten har udløst kampagnen [CampaignId,Tree,root=/sitecore/system/Marketing Control Panel/Campaigns,campaign] inden for de sidste [Number,Integer,,number] [TimeUnit,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - DateTime Values/Time Units&resulttype=name,time unit]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wo Kontakt kampagne ausgelöst hat nach
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155906Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der Kontakt eine Kampagne in der Vergangenheit ausgelöst [CampaignId,Tree,root=/sitecore/system/Marketing Control Panel/Campaigns,campaign] [Anzahl,Integer,,Anzahl] [TimeUnit,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - DateTime Values/Time Units&resulttype=name,time unit] hat"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T131435Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the contact has triggered campaign [CampaignId,Tree,root=/sitecore/system/Marketing Control Panel/Campaigns,campaign] in the past [Number,Integer,,number] [TimeUnit,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - DateTime Values/Time Units&resulttype=name,time unit]"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: コンタクトが特定の期間にトリガーしたキャンペーンとの比較
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160325Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトが[CampaignId,Tree,root=/sitecore/system/Marketing Control Panel/Campaigns,キャンペーン]キャンペーンを過去[Number,Integer,,数字] [TimeUnit,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - DateTime Values/Time Units&resulttype=name,日付の単位]以内にトリガーした場合"

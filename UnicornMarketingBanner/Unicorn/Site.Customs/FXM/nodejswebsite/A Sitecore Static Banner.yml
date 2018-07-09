@@ -1,0 +1,43 @@
+﻿---
+ID: "ef08b92b-b719-473e-b39f-8cc4e4fefd6d"
+Parent: "558abdc7-bdca-4d42-9f30-5be0c2074f07"
+Template: "10e23679-55db-4059-b8f2-e417a2f78fcb"
+Path: /sitecore/system/Marketing Control Panel/FXM/nodejswebsite/A Sitecore Static Banner
+DB: master
+SharedFields:
+- ID: "0789f313-0e00-4e40-801b-9a4002505ba7"
+  Hint: Position
+  Value: "{B8F49EBF-2542-4CB0-B3BB-63858918CE8B}"
+- ID: "7ca4cca5-df09-404f-99e1-5e00eaa5584e"
+  Hint: Selector
+  Value: "body > div:not([sc-part-of]):eq(1)"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1"
+      s:p="1"
+      s:s="s"
+      s:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <p:da
+          name="l" />
+        <r
+          uid="{7C81B53A-5B9F-4854-97F8-CDD5032EEF39}"
+          p:before="*"
+          s:before="*"
+          s:id="{BB17E8C6-355A-4026-9276-929B12C7C790}"
+          s:ph="{EF08B92B-B719-473E-B39F-8CC4E4FEFD6D}"
+          s:patch="http://www.sitecore.net/xmlconfig/" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180704T110540Z

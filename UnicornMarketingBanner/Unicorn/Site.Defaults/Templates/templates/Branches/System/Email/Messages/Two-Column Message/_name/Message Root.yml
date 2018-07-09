@@ -1,0 +1,140 @@
+﻿---
+ID: "9d5aef04-e57e-4bb6-97f9-fd42803aae87"
+Parent: "6681343e-ac4c-4f6c-9a17-a179fff2d466"
+Template: "3f12d78c-b7b7-4157-98fc-da3322ee1a5b"
+Path: "/sitecore/templates/Branches/System/Email/Messages/Two-Column Message/$name/Message Root"
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {197C8A18-C17D-46CB-838D-61E88D7D78FA}
+    {05BBC0AA-69C3-4838-94B2-6A1D38961406}
+    {A5B51631-4357-45EE-B2B8-99502F351324}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{2EB4CC7C-5EEC-4B4A-AB9A-A2B740C48A60}">
+        <r
+          cac="1"
+          cnd=""
+          ds=""
+          id="{69EB7A6D-ACEF-4D06-A923-804918AA245E}"
+          mvt=""
+          par=""
+          ph="msg-html-title"
+          uid="{0D647F06-CCD6-4A06-A33E-A5F12649F078}"
+          vbd="1"
+          vbp="1" />
+        <r
+          cac="1"
+          cnd=""
+          ds="{9D5AEF04-E57E-4BB6-97F9-FD42803AAE87}"
+          id="{3C190C98-A109-4364-BCAE-C3AA5B7B36AC}"
+          mvt=""
+          par=""
+          ph="msg-body"
+          uid="{F7CCE192-7FC3-473B-921E-D83B01F1B8FC}"
+          vbd="1"
+          vbdev="0"
+          vbl="0"
+          vbp="1"
+          vbqs="0"
+          vbu="0" />
+        <r
+          cac="1"
+          cnd=""
+          ds="{9D5AEF04-E57E-4BB6-97F9-FD42803AAE87}"
+          id="{FAD75BF4-2FD7-4C2F-AF76-10E799AF5BFF}"
+          mvt=""
+          par=""
+          ph="msg-sidebar"
+          uid="{93020F76-44A2-4C08-9715-6649F19CF9C4}"
+          vbd="1"
+          vbdev="0"
+          vbl="0"
+          vbp="1"
+          vbqs="0"
+          vbu="0" />
+        <r
+          cac="1"
+          cnd=""
+          ds="{9D5AEF04-E57E-4BB6-97F9-FD42803AAE87}"
+          id="{BAB508E2-ADDB-4D9E-9A6C-DA0940E219B9}"
+          mvt=""
+          par=""
+          ph="msg-footer"
+          uid="{65FBDA31-9449-46C6-AB1A-8B7F717842C7}"
+          vbd="1"
+          vbp="1" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Meddelelsesrod
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155417Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Nachrichten Root
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155857Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Message Root
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20091231T111200
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "69909e89-5e8f-4a4b-9c16-b06a13f7b056"
+      Hint: AlternateText
+      Value: 
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: メッセージ ルート
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160317Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,18 @@
+﻿---
+ID: "aaf41306-2850-4869-b2f9-7a43aeefdd4a"
+Parent: "b0bd1136-7f76-426c-8eae-4fb4998b4d2c"
+Template: "b0bd1136-7f76-426c-8eae-4fb4998b4d2c"
+Path: /sitecore/templates/System/Experience Analytics/FlexibleDimension/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140613T153326
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

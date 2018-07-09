@@ -1,0 +1,105 @@
+﻿---
+ID: "e16592de-c9cd-4926-8f39-beb3db067d0a"
+Parent: "2df0885c-7154-470d-b5cf-275b84b24248"
+Template: "b00d58aa-b884-4641-a4fc-5c4aca49d553"
+Path: /sitecore/system/Settings/Analytics/Marketing Automation/Activity Types/Decision Point
+DB: master
+BranchID: "922570a5-c76a-424a-9e2c-e2d7c2d7ec0e"
+SharedFields:
+- ID: "43e66bad-76c0-4dd4-b151-de83bc842382"
+  Hint: Editor ID
+  Value: 
+- ID: "4f9025e1-04e8-4961-b4f7-552ba026e9b0"
+  Hint: Classification
+  Type: TreelistEx
+  Value: "{357EF6B8-CA48-41CD-B436-855422924E90}"
+- ID: "7615a1f6-281d-4f49-8e68-c7f0f4a7ad34"
+  Hint: Implementation Type
+  Value: Sitecore.Marketing.Automation.Activity.Conditional, Sitecore.Marketing.Automation.Activity
+- ID: "b7b5336a-cc53-4b18-80a8-300e2b753b85"
+  Hint: Icon
+  Value: OfficeWhite/32x32/gearwheel.png
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{4FA4ACBB-04CB-46E7-BA54-09A4D38FD8DE}"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Beslutningspunkt
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: Et beslutningspunkt, som evaluerer en betingelse for at fastlægge, hvilken sti der skal benyttes.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155426Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: Beslutningspunkt
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Entscheidungspunkt
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: Ein Entscheidungspunkt, der eine Bedingung evaluiert, um den zu nehmenden Pfad zu bestimmen.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T155908Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: Entscheidungspunkt
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: A decision point which evaluates a condition to determine the path to take.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170124T034428Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: Decision Point
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 判断ポイント
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0dfd1438-8656-4b4c-8eae-d0da1e00b7cc"
+      Hint: Description
+      Value: 取得するパスを決めるために条件を評価する意思決定ポイント
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T160327Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63d0893e-5450-4808-92d7-b72b1238e5ec"
+      Hint: Name
+      Value: 判断ポイント
