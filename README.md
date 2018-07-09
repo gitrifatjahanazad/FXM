@@ -9,7 +9,7 @@ A simple local project to explore the potensial of FXM
 ## Result
 
 ### Local Site Without FXM
-![Site without FXM](img/localsite.png)
+![Site without FXM](img/localsite.PNG)
 
 ### Local Site With FXM
-![Site With FXM](img/withFXM.png)
+![Site With FXM](img/withFXM.PNG)
